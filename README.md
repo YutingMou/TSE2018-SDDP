@@ -5,6 +5,6 @@ Papavasiliou, Anthony, Yuting Mou, Léopold Cambier, and Damien Scieur. "Applica
 
 This model is implemented in matlab and the SDDP toolbox needs to be used, which is available here: https://github.com/leopoldcambier/FAST
 
-data: contains data of german power system data, which is collectd from the Internet by Dr. Ignacio Aravena Solís (https://sites.google.com/site/iaravenasolis/home)
+data: contains data of german power system data, which is collectd from the Internet by Dr. Ignacio Aravena Solís (https://sites.google.com/site/iaravenasolis/home). Many thanks to dear Ignacio.
 
 model: models of different policies: SDDP, merit order (MO), perfect foresignt (WS) and look ahead. Each of the model is selfcontained, including three files (ProjectXX.m, which is the main file and nldsXX.m and ErrorDisturbance.m)
