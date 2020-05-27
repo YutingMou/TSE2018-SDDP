@@ -1,7 +1,7 @@
 # TSE2018-SDDP
 Model for paper on IEEE transactions on sustainable energy: 
 
-Papavasiliou, Anthony, Yuting Mou, Léopold Cambier, and Damien Scieur. "Application of stochastic dual dynamic programming to the real-time dispatch of storage under renewable supply uncertainty." IEEE Transactions on Sustainable Energy 9, no. 2 (2018): 547-558.
+Papavasiliou, Anthony, Yuting Mou, Léopold Cambier, and Damien Scieur. "__Application of stochastic dual dynamic programming to the real-time dispatch of storage under renewable supply uncertainty__." IEEE Transactions on Sustainable Energy 9, no. 2 (2018): 547-558.
 
 This model is implemented in **Matlab 2016a** and the **SDDP toolbox** needs to be used, which is available here (note the version): https://github.com/leopoldcambier/FAST/tree/0.9.1b
 
