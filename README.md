@@ -5,9 +5,9 @@ Papavasiliou, Anthony, Yuting Mou, Léopold Cambier, and Damien Scieur. "Applica
 
 This model is implemented in **Matlab 2016a** and the **SDDP toolbox** needs to be used, which is available here (note the version): https://github.com/leopoldcambier/FAST/tree/0.9.1b
 
-1. **Data**: contains data of german power system data, which is collectd from the Internet by Dr. Ignacio Aravena Solís (https://sites.google.com/site/iaravenasolis/home). Many thanks to dear Ignacio.
+1. **data**: contains data of german power system data, which is collectd from the Internet by Dr. Ignacio Aravena Solís (https://sites.google.com/site/iaravenasolis/home). Many thanks to dear Ignacio.
 
-2. **Model**: models of different policies: SDDP, merit order (MO), perfect foresignt (WS) and look ahead. Each of the model is selfcontained, including three files (ProjectXX.m, which is the main file and nldsXX.m and ErrorDisturbance.m)
+2. **model**: models of different policies: SDDP, merit order (MO), perfect foresignt (WS) and look ahead. Each of the model is selfcontained, including three files (ProjectXX.m, which is the main file and nldsXX.m and ErrorDisturbance.m)
 
 SDDP takes several hours to compile the lattice and run to convergence, you are recommended to reduce the number of nodes and horzion for an intial test.
 
