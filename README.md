@@ -9,6 +9,6 @@ This model is implemented in **Matlab 2016a** and the **SDDP toolbox** needs to 
 
 2. **model**: models of different policies: SDDP, merit order (MO), perfect foresignt (WS) and look ahead. Each of the model is selfcontained, including three files (ProjectXX.m, which is the main file and nldsXX.m and ErrorDisturbance.m)
 
-SDDP takes several hours to compile the lattice and run to convergence, you are recommended to reduce the number of nodes and horzion for an intial test.
+SDDP takes several hours to compile the lattice and run to convergence, you are recommended to reduce the number of nodes and horizon for an intial test.
 
 If you have question regarding this model, please feel free to contact me at yuting(DOT)mou(AT)uclouvain(DOT)be.
