@@ -11,4 +11,4 @@ This model is implemented in **Matlab 2016a** and the **SDDP toolbox** needs to 
 
 SDDP takes several hours to compile the lattice and run to convergence, you are recommended to reduce the number of nodes and horizon for an intial test.
 
-If you have question regarding this model, please feel free to contact me at yuting(DOT)mou(AT)uclouvain(DOT)be.
+If you have question regarding this model, please feel free to contact me at yuting.mou@outlook.com. The contact information on my personal website is always up-to-date: https://sites.google.com/site/yutingmouchina/home.
