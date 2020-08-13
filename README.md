@@ -9,6 +9,8 @@ This model is implemented in **Matlab 2016a** and the **SDDP toolbox** needs to 
 
 2. **model**: models of different policies: SDDP, merit order (MO), perfect foresignt (WS) and look ahead. Each of the model is selfcontained, including three files (ProjectXX.m, which is the main file and nldsXX.m and ErrorDisturbance.m)
 
-SDDP takes several hours to compile the lattice and run to convergence, you are recommended to reduce the number of nodes and horizon for an intial test.
+SDDP takes several hours to compile the lattice and run to convergence, you are recommended to reduce the number of nodes and horizon for an intial test. When doing that, change the "myPath(i,1:H)" into "'random'" in the following functions in the ProjectXX.m file.
+  waitAndSee(latticeComplied,myPath(i,1:H) ,params) ;
+  forwardPass(lattice,myPath(i,1:H) ,params) ;
 
 If you have question regarding this model, please feel free to contact me at yuting.mou@outlook.com. The contact information on my personal website is always up-to-date: https://sites.google.com/site/yutingmouchina/home.
